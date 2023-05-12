@@ -36,7 +36,7 @@ const AllProducts = (props) => {
 			
 			dispatch(setAllProductsSuccess({ data: { allProducts: updatedAllProducts, sortVal } }));
 		}
-	}, [sortValue]);
+	}, [sortValue, JSON.stringify(allProducts), sortVal]);
 
 	return (
 		<Wrapper>
