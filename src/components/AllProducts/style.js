@@ -69,7 +69,12 @@ export const Wrapper = styled.div`
 		margin: 20px 20px 0px 0px;
 		background-color: var(--color-1);
 		border: 1px solid var(--color-1);
-		cursor: pointer;
+		transition: transform 0.2s;
+
+		:hover {
+			transform: scale(0.9);
+			cursor: pointer;
+		}
 
 		img {
 			width: 250px;
