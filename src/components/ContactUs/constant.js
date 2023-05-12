@@ -26,4 +26,4 @@ export const INPUT_FIELD_OPTIONS = [
 ]
 
 export const CONTACT_US = "CONTACT US"
-export const SUMBIT = "SUBMIT"
+export const SUBMIT = "SUBMIT"
