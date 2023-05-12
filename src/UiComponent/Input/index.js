@@ -1,4 +1,4 @@
-import Rect from "react";
+import React from "react";
 import { Wrapper } from "./style";
 
 const Input = (props) => {
