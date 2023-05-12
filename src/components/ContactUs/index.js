@@ -3,7 +3,7 @@ import { deepClone } from "src/utils/helper";
 import Input from "src/UiComponent/Input";
 import Button from "src/UiComponent/Button";
 import { isEmptyObject } from "src/utils/helper";
-import { INPUT_FIELD_OPTIONS, CONTACT_US, SUBMIT, SUMBIT } from "./constant";
+import { INPUT_FIELD_OPTIONS, CONTACT_US, SUBMIT } from "./constant";
 import { Wrapper } from "./style";
 
 const ContactUs = (props) => {
@@ -44,7 +44,7 @@ const ContactUs = (props) => {
 							<Input key={obj.key} {...obj} value={!isEmptyObject(inputObj) ? inputObj[obj.key] : ""} onChange={onChange(obj.key)} />
 						))}
 					</div>
-					<Button onClick={onClick}>{SUMBIT}</Button>
+					<Button onClick={onClick}>{SUBMIT}</Button>
 				</div>
 			</div>
 		</Wrapper>
