@@ -9,4 +9,8 @@ export const Wrapper = styled.button`
 	margin-bottom: 5px;
 	letter-spacing: 0.05em;
 	cursor: pointer;
+	
+	:hover {
+        	opacity: 0.85;
+    	}
 `;
